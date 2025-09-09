@@ -17,3 +17,18 @@ informasjonsteknologi1.likerFaget = true;
 
 //1d
 delete informasjonsteknologi1.timetall;
+
+//1e
+Object(informasjonsteknologi1.spraak).forEach((value) => {
+    console.log(value);
+});
+
+//1f
+for (const [key, value] of Object.entries(informasjonsteknologi1)) {
+    console.log(`${key}`);
+}
+
+//1g
+for (const [key, value] of Object.entries(informasjonsteknologi1)) {
+    console.log(`${key}: ${value}`);
+}
